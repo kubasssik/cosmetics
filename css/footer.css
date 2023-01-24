@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+footer{
+    font-family: 'Pattaya', sans-serif;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+ 
+    
+}
+.footer__block{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer__li{
+    margin: 10px 0;
+    color: white;
+    font-size: 17px;
+}
+.footer__hover_li{
+    cursor: pointer;
+}
+.footer__hover_li:hover{
+    color: rgb(211, 166, 20);
+}
+.subscribe__blockss{
+    margin-top: 10px;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;    
+}
+.subscribe__input{
+    font-size: 17px;
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 22px;
+    border-radius: 8px 0 0 8px;
+    
+}
+.footer__p{
+    color: white;
+}
+.footer__p:nth-child(3){
+    color: rgb(160, 160, 160);
+}
+
+.p__share{
+    margin: 10px 0;
+    color: white;
+}
+.p__social{
+    margin: 10px 0;
+    color: white;
+}
+.img__footer{
+    width: 40px;
+}
+.subscribe__block{
+   margin: 10px 0;
+   display: grid;
+   grid-auto-flow: column;
+  
+}
+.btn__subscribe{
+    background-color: rgb(66, 20, 20);
+    font-size: 22px;
+    color: white;
+    border-radius: 0 8px  8px 0;
+}

@@ -1,0 +1,81 @@
+.wrapper__promo {
+        width: 100%;
+        display: grid;
+        grid-auto-flow: row;
+        gap: 5px;   
+}
+header{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    position: relative;
+    background-color: aqua;
+
+}
+.header__promo {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;  
+}
+main{
+    width: 100%;
+    
+}
+.main__promo {
+    width: 1200px;
+    margin: 0 auto;
+   
+    
+}
+.card{
+   
+   
+    
+}
+table{
+    background-color: rgb(155, 155, 155); 
+}
+caption{
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.thead{
+     
+}
+tr{
+ 
+  background-color: white;
+  font-size: 19px;
+  
+}
+.td__main_grid{
+    padding: 5px 10px;
+    text-align: center;
+}
+.new__td{
+    
+    padding: 5px 10px;
+}
+.settings__price_btn{
+    
+    
+   
+    
+}
+.promo {
+   padding-bottom: 20px; 
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    padding: 10px;
+ 
+    
+}
+.footer__promo {
+    width: 1200px;
+    margin: 0 auto;
+    height: 200px;
+}

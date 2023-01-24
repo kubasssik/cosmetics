@@ -1,0 +1,135 @@
+header{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    position: relative;
+    
+
+}
+.header__block {
+    width: 1200px;
+   display: grid;
+    margin: 0 auto;
+}
+.logo__block {   
+    padding: 10px ;
+    display: grid;
+    grid-auto-flow: column;
+    border-bottom: 1px solid black;
+}
+h1{
+    font-size: 36px;
+}
+.tel__p{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+}
+.header__nav {
+    position: relative;
+   
+    bottom: 5px;
+    
+
+}
+.header__nav ul{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 5px;
+    position: relative;
+   
+}
+.header__li{
+    position: relative;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;    
+}
+
+.arrow::before{
+    content: '';
+    position: absolute;
+    right:10px;
+    top: 50%;
+    transform: rotate(-45deg);
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: black;
+}
+.arrow::after{
+    content: '';
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: rotate(45deg);
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: black;
+}
+
+.login__block {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.login__ul{
+display: grid;
+gap: 5px;
+}
+.login__li{
+    background: rgb(165, 34, 130);
+    padding: 5px 0;
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.login__li:hover{
+    background:  rgb(240, 169, 235);
+    color: rgb(253, 232, 193);
+}
+.login__li:nth-child(2){
+    background-color: rgb(215, 87, 206);
+}
+.login__li:nth-child(2):hover{
+    background-color: rgb(27, 161, 161);
+    color: rgb(253, 232, 193);
+}
+.login__ul{
+    display: grid;
+   grid-auto-flow: column;
+}
+.header__scroll{
+    position: fixed;
+    width: 1200px;
+    top: 0;
+    z-index: 1000;
+    height: 42px;   
+}
+.hedear__js{
+    background: var(--color_1);
+}
+.drop__down_menu{
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color_1);
+    
+  
+    z-index: 2000;
+}
+.drop__menu{
+    color: black;
+    text-align: start;
+    line-height: 30px;
+    color: white;
+}
+
+

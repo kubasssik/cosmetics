@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/admin/admin.css">
+</head>
+
+<body>
+    <div class="wrapper__admin">
+
+        <!---->
+        <header>
+            <div class="header__admin">
+                <nav class="admin__nav_header">
+                    <ul class="admin__ul_header">
+                        <li class="admin__li_header">Главная</li>
+                       <li class="admin__li_header">Товар</li>
+                        <li class="admin__li_header">Доставка</li>
+                        <li class="admin__li_header">Настройки</li>
+                    </ul>
+                </nav>
+            </div>
+       
+        </header>
+        <!---->
+        <main>
+          <main class="main__admin">
+            <div class="admin">
+                <form class="form__creat_product" action="#">
+                    <p class="id__product_p"><span>id:</span>000</p>
+                    
+                    <label class="label__admin">
+                        <span class="star">*</span>
+                        <p class="form__p" >Категория:</p>
+                        <select name="category" class="style__input_admin">
+                            <option value="">Уход для лица</option>
+                            <option value="">Уход ля тела</option>
+                            <option value="">Уход для волос</option>
+                            <option value="">Уход за полостюь рта</option>
+                            <option value="">Декоративная косметика</option>
+                            <option value="">Парфюмерия</option>
+                            <option value="">Для мужчин</option>
+                            <option value="">Аксессуары</option>
+                            <option value="">Товары со скидкой</option>
+                        </select>
+                    </label>
+                    <label class="label__admin">
+                        <span class="star">*</span>
+                        <p class="form__p">Наименование:</p>
+                        <input type="text" class="style__input_admin" placeholder="Крем,тоник, шампунь и т.д.">
+                    </label>
+                    <label class="label__admin">
+                        <span class="star">*</span>
+                        <p class="form__p">Брэнд:</p>
+                        <input type="text" class="style__input_admin" placeholder="Гуси, Хуго-бос и т.д.">
+                    </label>
+                    <label class="label__admin">
+                        <span class="star">*</span>
+                        <p class="form__p">Объем:</p>
+                        <input type="text" class="style__input_admin" placeholder="200мл, 1л, 1кг, 100г и т.д.">
+                    </label>
+                    <label class="label__admin">
+                        <span class="star">*</span>
+                        <p class="form__p">Остаток:</p>
+                        <input type="number" class="style__input_admin" placeholder="Цифрами">
+                    </label>
+                    <label class="label__admin">
+                        <span class="star">*</span>
+                        <p class="form__p">Цена:</p>
+                        <input type="number" class="style__input_admin" placeholder="200, 150, 99 и т.д.">
+                    </label>
+                    <label class="label__admin__foto">
+                        <span class="star">*</span>
+                        <p class="form__p">Фото 1:</p>
+                        <input type="file" class="style__foto_admin">
+                        <p class="form__p">Фото 2:</p>
+                        <input type="file" class="style__foto_admin">
+                        <p class="form__p">Фото 3:</p>
+                        <input type="file" class="style__foto_admin">
+                    </label>
+                    <label class="label__admin__area">
+                        <span class="star">*</span>
+                        <p class="form__p">Описание товара</p>
+                        <textarea class="style__area_admin"></textarea>
+                        <p class="form__p">Не меньше 200 и не больше 500 символов</p>
+                    </label>
+                    <div class="btns__block_form">
+                    <button class="btn__block_form" type="reset">Очистить</button>
+                    <button class="btn__block_form" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+            <section class="section__2" style="font-size: 25px;">
+                <a class="href__test" href="index.html">Главная</a>
+                <a class="href__test" href="promo.html">Управление акциями и флажками</a>
+                <a class="href__test" href="admin.html">Aдминка</a>
+            </section>
+          </main>
+         
+            
+        </main>
+        <!---->
+        <footer>
+          
+        </footer>
+    </div>
+  
+</body>
+<script src="./js/admin/index.js" type="module"></script>
+<script src="https://yastatic.net/share2/share.js"></script>
+
+</html>
